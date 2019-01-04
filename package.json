@@ -1,0 +1,30 @@
+{
+  "name": "Device",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node --presets env,stage-3 app.js"
+  },
+  "keywords": [],
+  "author": "Invoker <baonguyen2409@gmail.com> (fb.com/baonguyen.phan.9)",
+  "license": "MIT",
+  "dependencies": {
+    "aws-iot-device-sdk": "^2.2.1",
+    "aws4": "^1.8.0",
+    "https": "^1.0.0",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.2.3",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-source-map-support": "^2.0.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "nodemon": "^1.18.9"
+  }
+}
